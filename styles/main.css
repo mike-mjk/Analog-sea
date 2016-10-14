@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #3F94E7;
+	text-align: center; 
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.logo {
+	height: 35px;
+	margin: 30px;
+}
+
+.main-box {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	/*height: 400px;*/
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	top:0px;
+}
+
+h1 {
+	padding: 25px;
+	margin: 0px;
+	display: block;
+	margin: auto;
+	font-weight: normal;
+}
+
+.left {
+	text-align: left;
+	
+}
+
+input, button {
+	width: 320px;
+	border: 2px solid #F2F2F2;
+	height: 55px;
+	border-radius: 4px;
+	font-size: 15px;
+	padding: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+input {
+	color: #ADB1B9;
+}
+
+button {
+	background-color:#65C470;
+	margin-bottom: 7px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+button:hover {
+	background-color: #45914e;
+}
+
+label {
+	display: block;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+.main-box a:link {
+	color: #9DA2A8;
+	padding-bottom: 30px;
+	font-size: 13px;
+
+}
+
+p, p a {
+	color: white;
+	font-weight: bold;
+}

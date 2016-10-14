@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>AnalogSea Sign Up Page</title>
+
+	<meta name="description" content="This is a sign up page for AnalogSea. Go to Log in page if you already have an account">
+
+	<!-- <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+
+	<img class="logo" src="images/logo.png">
+
+	<div class="main-box">
+
+		<h1>Sign up</h1>
+
+		<form class="left" action="/signup" method="post">
+
+			<label for="email">Email</label>
+
+			<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
+
+			<label for="password">Password</label>
+
+			<input type="password" name="password" id="password" placeholder="1234passw0rd" required>
+
+			<button name="Sign up" type="submit">Sign up</button>
+
+		</form>
+
+		<a href="/forgot-password/new">Forgot password?</a>
+
+	</div>
+
+	<p>Already have an account? <a href="/login">Log in</a></p>
+
+</body>
+</html>
